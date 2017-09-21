@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	color : #000000;
+	background : #ffffff;
+	font-family : "Times New Roman", Times, serif;
+	font-size : 12px;
+} 
+
+a {
+	text-decoration : underline;
+	color : #0000ff;
+}
+
+h1 h2 h3 h4 h5 h6{
+	font-family : "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+div#social_links_header {
+	display: none;
+}
+
+div#gallery{
+	display: none;
+}
+
+div.footer{
+	display: none;
+}

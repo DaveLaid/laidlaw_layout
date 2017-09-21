@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.dwuserEasyRotator { 
+	width: 700px;
+	height: 500px;
+	position: relative;
+	text-align: left;
+	background-color: #333333;
+}
+
+
+.erimgMain {
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:100px;
+}
+
+.erimgMain rotatorTileNav {
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100px;
+	background-color:#222;
+	border-top:1px solid #666;
+}
+
+.erimgMain_slides {
+	position: absolute;
+	left:45px;
+	top:0;
+	bottom:0;
+	right:45px;
+}
+
+.erimgMain_img {
+	 position: absolute;
+	 left: 5px;
+	 right: 5px;
+	 top: 10px;
+	 bottom: 10px;
+}
+
+.selectionArrow visibleWhenSelected {
+	 position: absolute;
+	 top: 0;
+	 left: 50%;
+	 margin-left: -10px;
+	 width: 20px;
+	 height: 10px;
+	 background-image: url('http://easyrotator.s3.amazonaws.com/1/i/rotator/333_arrow10_8_down_export.png');
+}
+
+.erimgMain_arrowLeft {
+	position:absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.erimgMain_arrowRight {
+	position:absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.erabout erFixCSS3 {
+	color: #FFF;
+	text-align: left;
+	background: #000;
+	background:rgba(0,0,0,0.93);
+	border: 2px solid #FFF;
+	padding: 20px;
+	font: normal 11px/14px Verdana,_sans;
+	width: 300px;
+	border-radius: 10px;
+	display:none;
+}
+
